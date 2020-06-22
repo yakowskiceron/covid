@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/info"
+        title="@string/tab_info"
+        icon="@drawable/info"
+        />
+
+    <tab
+        id="@+id/test"
+        title="@string/tab_test"
+        icon="@drawable/test"
+        />
+
+    <tab
+        id="@+id/home"
+        title="@string/tab_home"
+        icon="@drawable/home"
+        />
+    <tab
+        id="@+id/agenda"
+        title="@string/tab_agenda"
+        icon="@drawable/agenda"
+        />
+
+    <tab
+        id="@+id/map"
+        title="@string/tab_map"
+        icon="@drawable/map"
+        />
+
+
+</tabs>

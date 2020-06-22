@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="combo_departamentos">
+        <item>Seleccione</item>
+        <item>Chinandega</item>
+        <item>León</item>
+        <item>Managua</item>
+        <item>Masaya</item>
+        <item>Granada</item>
+        <item>Carazo</item>
+        <item>Rivas</item>
+        <item>Madriz</item>
+        <item>Nueva Segovia</item>
+        <item>Estelí</item>
+        <item>Jinotega</item>
+        <item>Matagalpa</item>
+        <item>Boaco</item>
+        <item>Chontales</item>
+        <item>Rio San Juan</item>
+        <item>RAAN</item>
+        <item>RAAS</item>
+
+    </string-array>
+
+
+</resources>

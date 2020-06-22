@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="@dimen/margin"
+    android:layout_marginBottom="@dimen/margin">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bordes"
+        android:layout_marginBottom="@dimen/margin"
+       >
+        <TextView
+            android:id="@+id/enunciado_principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enunciado_principal"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="10dp"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Imagen_medidas"
+            android:layout_margin="10dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/lavar_mano"
+            android:layout_gravity="center|top"
+            android:elevation="15dp"
+            app:layout_behavior="com.zoonref.SimpleViewBehavior"
+
+            />
+
+        <TextView
+            android:id="@+id/enunciado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/enunciado"
+            android:textSize="12sp"
+            android:paddingLeft="@dimen/margin"
+            android:paddingRight="@dimen/margin"
+            android:layout_marginBottom="@dimen/margin"
+        />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

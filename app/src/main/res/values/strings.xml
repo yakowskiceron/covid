@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">covid</string>
+    <string name="nombre">   Ingrese usuario:</string>
+    <string name="hint_password">   Ingrese contraseña:</string>
+    <string name="Comenzar">Comenzar</string>
+    <string name="Covid">Covid App</string>
+    <string name="unete">Únete ahora</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="nuevo_nombre">Ingrese su nombre:</string>
+    <string name="contraseña">Ingrese su contraseña:</string>
+    <string name="confirmar_contraseña">Confirmar contraseña:</string>
+    <string name="seleccion">Departamento:</string>
+    <string name="correo">Ingrese su email:</string>
+    <string name="coronavirus">Coronavirus</string>
+    <string name="empezar">Empezar</string>
+    <string name="tab_info">Informacion</string>
+    <string name="tab_home">Principal</string>
+    <string name="tab_agenda">Agenda</string>
+    <string name="tab_map">Mapa</string>
+    <string name="tab_test">Test</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="medidas">Medidas de prevencion en contra del COVID-19</string>
+    <string name="enunciado">lavate las manos</string>
+    <string name="enunciado_principal">Lavate de las manos</string>
+    <string name="encabezado_agenda">Lista de agendas de doctores disponibles</string>
+    <string name="descripcion_Agenda">Estamos viviendo tiempos difíciles y nuestro mayor aliado es la tecnológia para comunicarnos con las demás personas. Por eso, le proporcionamos una lista de los doctores certificados disponibles que se encuentran en los distintos departamentos de Nicaragua, con ellos podrá comunicarse para una atencion medica sin salir de sus hogares.</string>
+</resources>

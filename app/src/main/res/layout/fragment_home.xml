@@ -3,12 +3,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.fragment.HomeFragment">
+    tools:context=".view.fragment.HomeFragment"
+    android:background="@color/colorPrimaryDark">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="home" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/landasans"
+        android:gravity="center"
+        android:text="Covid-19 Nicaragua"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:fontFamily="@font/landasans"
+        android:gravity="center"
+        android:text="Su app de confianza para la pademia"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/btnNews"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="210dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/noticias"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="335dp"
+        android:fontFamily="@font/landasans"
+        android:gravity="center"
+        android:text="Ultimas Noticias"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/landasans"
+        android:gravity="center"
+        android:text="*Se necesita una conexion a internet para acceder a las noticias*"
+        android:textSize="20sp" />
+
 
 </FrameLayout>

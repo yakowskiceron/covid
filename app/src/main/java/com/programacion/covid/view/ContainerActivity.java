@@ -3,8 +3,11 @@ package com.programacion.covid.view;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
+import com.programacion.covid.Noticias;
 import com.programacion.covid.R;
 import com.programacion.covid.view.fragment.AgendaFragment;
 import com.programacion.covid.view.fragment.HomeFragment;

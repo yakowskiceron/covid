@@ -27,6 +27,25 @@
     <string name="tab_map">Mapa</string>
     <string name="tab_test">Test</string>
 
+
+    <string name="large_text">Preguntas Frecuentes
+    </string>
+    <string name="transitionname_picture">transitionName</string>
+    <string name="action_settings">Ayuda</string>
+    <string name="pregunta1">¿Tienes Fiebre mayor a 37.5º?</string>
+    <string name="pregunta2">¿Sientes que tienes tos seca?</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="pregunta3">¿Presenta Fatiga u Cansancio?</string>
+    <string name="pregunta4">¿Presenta sensacion de falta de Aire o inicio Brusco?</string>
+    <string name="pregunta5">¿Dolor de Garganta?</string>
+    <string name="informacion">La Organización Mundial de la Salud (OMS) apunta que cerca de un
+        80% de los contagiados presenta síntomas leves o incluso inexistentes.
+        Pero una minoría desarrolla covid-19 en sus formas más graves,A Continuacion presentamos
+        un breve test para descartar si es un persona propensa al COVID-19.</string>
+
+    <string name="encabezado">Test de COVID-19</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="medidas">Medidas de prevencion en contra del COVID-19</string>

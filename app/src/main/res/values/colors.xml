@@ -7,5 +7,6 @@
     <color name="editTextColorWhite">#000000</color>
     <color name="color1_boton">#b0a2dc</color>
     <color name="color2_boton">#03DAC5</color>
+    <color name="backgroundText_card">#53292929</color>
 
 </resources>

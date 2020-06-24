@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pictureCard"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="@dimen/height_cardview"
+    cardview:cardCornerRadius="@dimen/corner_radius_cardview"
+    android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+
+            android:id="@+id/imagenCovid"
+            android:layout_width="415dp"
+            android:layout_height="@dimen/height_cardview"
+            android:background="@drawable/fondo_pregunta"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@color/backgroundText_card"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin">
+
+
+            <TextView
+                android:id="@+id/preguntas_Covid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:text="@string/Covid"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textsize_username_card"
+
+                />
+            <TextView
+                android:id="@+id/inciso1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="1sp"
+                android:text="1"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <LinearLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/like_margintop_card"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/first_question"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pregunta1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_username_card" />
+
+
+
+
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/like_margintop_card"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/RadioButtonNo"
+                        android:layout_width="91dp"
+                        android:layout_height="96dp"
+                        android:layout_marginLeft="@dimen/timecard_marginleft_card"
+                        android:checked="false"
+                        android:text="No"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButtonSi"
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"
+                        android:checked="false"
+                        android:text="Si"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

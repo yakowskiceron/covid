@@ -12,13 +12,14 @@
         android:roundIcon="@drawable/iconomain"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".RespuestaActivity"
+            android:parentActivityName=".view.ContainerActivity"></activity>
         <activity
             android:name=".Noticias"
-            android:parentActivityName=".view.ContainerActivity">
-        </activity>
+            android:parentActivityName=".view.ContainerActivity"></activity>
         <activity
             android:name=".Correo"
-            android:parentActivityName=".Perfil"></activity>
+            android:parentActivityName=".Perfil" />
         <activity
             android:name=".Perfil"
             android:parentActivityName=".view.ContainerActivity" />

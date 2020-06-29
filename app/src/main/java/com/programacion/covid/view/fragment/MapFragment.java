@@ -12,6 +12,7 @@ import android.widget.ImageButton;
 
 import com.programacion.covid.EstadisticasUrl;
 import com.programacion.covid.MapaRecolector;
+import com.programacion.covid.Mapa_Prueba_mapsActivity;
 import com.programacion.covid.R;
 
 public class MapFragment extends Fragment {
@@ -34,7 +35,7 @@ public class MapFragment extends Fragment {
         btnBarra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), MapaRecolector.class);
+                Intent intent = new Intent(getActivity(), Mapa_Prueba_mapsActivity.class);
                 startActivity(intent);
             }
         });

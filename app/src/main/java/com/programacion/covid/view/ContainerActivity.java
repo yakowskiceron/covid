@@ -10,6 +10,7 @@ import android.view.View;
 import com.programacion.covid.Noticias;
 import com.programacion.covid.R;
 import com.programacion.covid.view.fragment.AgendaFragment;
+import com.programacion.covid.view.fragment.EstadisticasFragment;
 import com.programacion.covid.view.fragment.HomeFragment;
 import com.programacion.covid.view.fragment.MapFragment;
 import com.programacion.covid.view.fragment.RecomendacionFragment;
@@ -56,6 +57,12 @@ public class ContainerActivity extends AppCompatActivity {
                         TestFragment testFragment = new TestFragment();
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, testFragment)
                                 .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).addToBackStack(null).commit();
+                        break;
+                    case R.id.estadisticas:
+                        EstadisticasFragment estadisticasFragment = new EstadisticasFragment();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container,estadisticasFragment)
+                                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).addToBackStack(null).commit();
+                        break;
 
                 }
 

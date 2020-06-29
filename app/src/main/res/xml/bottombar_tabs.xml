@@ -11,6 +11,11 @@
         title="@string/tab_test"
         icon="@drawable/test"
         />
+    <tab
+        id = "@+id/estadisticas"
+        title="@string/tab_stadistics"
+        icon="@drawable/estadisticas"
+        />
 
     <tab
         id="@+id/home"

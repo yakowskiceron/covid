@@ -11,12 +11,15 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 
 import com.programacion.covid.EstadisticasUrl;
-import com.programacion.covid.MapaRecolector;
+import com.programacion.covid.Noticias;
 import com.programacion.covid.R;
 
-public class MapFragment extends Fragment {
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class EstadisticasFragment extends Fragment {
 
-    public MapFragment() {
+    public EstadisticasFragment() {
         // Required empty public constructor
     }
 
@@ -25,7 +28,7 @@ public class MapFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_map, container, false);
+        View view = inflater.inflate(R.layout.fragment_estadisticas, container, false);
 
 
 
@@ -34,7 +37,7 @@ public class MapFragment extends Fragment {
         btnBarra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), MapaRecolector.class);
+                Intent intent = new Intent(getActivity(),EstadisticasUrl.class);
                 startActivity(intent);
             }
         });
@@ -42,17 +45,7 @@ public class MapFragment extends Fragment {
 
         return view;
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
+
+
 }

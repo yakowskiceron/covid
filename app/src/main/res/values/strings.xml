@@ -21,11 +21,14 @@
     <string name="correo">Ingrese su email:</string>
     <string name="coronavirus">Coronavirus</string>
     <string name="empezar">Empezar</string>
-    <string name="tab_info">Informacion</string>
-    <string name="tab_home">Principal</string>
+    <string name="tab_info">Info</string>
+    <string name="tab_home">Noticias</string>
     <string name="tab_agenda">Agenda</string>
     <string name="tab_map">Mapa</string>
     <string name="tab_test">Test</string>
+    <string name="tab_stadistics">Estadistica</string>
+
+    <string name="estadistica">Estadisticas</string>
 
 
     <string name="large_text">Preguntas Frecuentes
@@ -53,4 +56,7 @@
     <string name="enunciado_principal">Lavate de las manos</string>
     <string name="encabezado_agenda">Lista de agendas de doctores disponibles</string>
     <string name="descripcion_Agenda">Estamos viviendo tiempos difíciles y nuestro mayor aliado es la tecnológia para comunicarnos con las demás personas. Por eso, le proporcionamos una lista de los doctores certificados disponibles que se encuentran en los distintos departamentos de Nicaragua, con ellos podrá comunicarse para una atencion medica sin salir de sus hogares.</string>
+    <string name="estadisticas">En el siguiente apartado se muestra las estaditicas de las personas contagiados por el virus, los casos activos, los muertos y los recuperados. Se requiere internet para poder acceder a esta seccion.</string>
+    <string name="autoridad_estadisticas">Los siguientes datos a mostrar son datos veridicos recolectados de la universidad estounidense la Universidad de Hopkins, haga click para acceder a los datos.</string>
+    <string name="title_activity_mapa__prueba_maps">Map</string>
 </resources>

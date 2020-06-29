@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/colorPrimaryDark"
+    android:background="@color/backgroundText_card"
     tools:context=".view.fragment.RecomendacionFragment"
     android:fitsSystemWindows="true">
 
@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fitsSystemWindows="true"
-            android:background="@color/colorPrimaryDark"
+            android:background="@color/backgroundText_card"
             app:statusBarScrim="@color/colorPrimaryDark"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
@@ -37,7 +37,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:background="@drawable/oms"
+                    android:background="@drawable/oms_foto"
                     />
                 <TextView
                     android:layout_marginTop="30dp"

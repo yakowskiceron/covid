@@ -9,11 +9,24 @@
     
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="270dp"
         android:orientation="vertical"
         android:background="@drawable/bordes"
         android:layout_marginBottom="@dimen/margin"
        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Imagen_medidas"
+            android:layout_margin="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/lavar_mano"
+            android:layout_gravity="center|top"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/colorPrimaryDark"
+            android:elevation="15dp"
+            app:layout_behavior="com.zoonref.SimpleViewBehavior"
+
+            />
         <TextView
             android:id="@+id/enunciado_principal"
             android:layout_width="match_parent"
@@ -22,18 +35,6 @@
             android:textSize="15sp"
             android:textColor="@android:color/black"
             android:paddingLeft="10dp"
-            />
-
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/Imagen_medidas"
-            android:layout_margin="10dp"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:src="@drawable/lavar_mano"
-            android:layout_gravity="center|top"
-            android:elevation="15dp"
-            app:layout_behavior="com.zoonref.SimpleViewBehavior"
-
             />
 
         <TextView

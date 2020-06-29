@@ -66,7 +66,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#c3c3c3"
+                android:background="@color/backgroundText_card"
                 android:orientation="vertical">
 
                 <TextView
@@ -92,11 +92,12 @@
                         android:id="@+id/Pregunta1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
                         android:text="@string/pregunta1"
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton1"
@@ -133,7 +134,7 @@
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton3"
@@ -170,7 +171,7 @@
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton5"
@@ -207,7 +208,7 @@
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton7"
@@ -244,7 +245,7 @@
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton9"
@@ -281,7 +282,7 @@
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton11"
@@ -318,7 +319,7 @@
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton13"
@@ -355,7 +356,7 @@
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton15"
@@ -392,7 +393,7 @@
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton17"
@@ -429,7 +430,7 @@
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton19"
@@ -466,7 +467,7 @@
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton21"
@@ -503,7 +504,7 @@
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton23"
@@ -540,7 +541,7 @@
                         android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
                         android:id="@+id/radiobutton25"

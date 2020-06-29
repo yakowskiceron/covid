@@ -1,94 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/colorPrimaryDark"
-    android:fitsSystemWindows="true"
-    tools:context=".view.fragment.TestFragment">
+    tools:context=".view.fragment.TestFragment"
+    >
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/appbar"
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_marginTop="@dimen/toolbar_height_detail"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/appbar_height_layuot"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-        <com.google.android.material.appbar.CollapsingToolbarLayout
-            android:id="@+id/collapsing_toolbar"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="@dimen/margin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            android:fitsSystemWindows="true"
-            android:background="@color/colorPrimaryDark"
-            app:statusBarScrim="@color/colorPrimaryDark"
-            >
+            android:text="@string/Intro_test"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingBottom="@dimen/like_margintop_card"
-                android:layout_gravity="center|top"
-                android:orientation="vertical"
-                >
-
-                <pl.droidsonroids.gif.GifImageView
-                    android:id="@+id/image_header"
-                    android:layout_width="wrap_content"
-                    android:layout_height="200dp"
-                    android:background="@drawable/virus"
-                    />
-
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="match_parent"
-                    android:layout_height="46dp"
-                    android:gravity="center"
-                    android:paddingLeft="@dimen/activity_vertical_margin"
-                    android:paddingRight="@dimen/activity_vertical_margin"
-                    android:text="@string/encabezado"
-                    android:textColor="#090909"
-                    android:textSize="18sp" />
-
-
-            </LinearLayout>
-
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbar_general"
-                android:layout_marginTop="@dimen/margin"
-                android:layout_width="match_parent"
-                app:popupTheme="@style/AppTheme.PopupOverlay"
-                android:layout_height="55dp"
-                app:layout_collapseMode="pin"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="198dp"
-                android:gravity="center"
-                android:paddingLeft="@dimen/activity_vertical_margin"
-                android:paddingRight="@dimen/activity_vertical_margin"
-                android:text="@string/informacion"
-                android:textColor="@android:color/white"
-                android:textSize="18sp" />
-
-
-        </com.google.android.material.appbar.CollapsingToolbarLayout>
-    </com.google.android.material.appbar.AppBarLayout>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/picture_recycler"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-
-        android:id="@+id/respuesta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:src="@drawable/save"
-        app:layout_anchor="@+id/appbar"
-        app:layout_anchorGravity="bottom|end"
-        />
-
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <ImageButton
+            android:id="@+id/testbtn"
+            android:layout_width="175dp"
+            android:layout_height="166dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin"
+            android:background="@drawable/resultado" />
+    </LinearLayout>
+</RelativeLayout>

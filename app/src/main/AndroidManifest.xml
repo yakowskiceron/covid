@@ -18,7 +18,8 @@
         android:roundIcon="@drawable/iconomain"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MapaRecolector"></activity>
+        <activity android:name=".Test"></activity>
+        <activity android:name=".MapaRecolector" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -36,9 +37,6 @@
             android:label="@string/title_activity_mapa__prueba_maps" />
         <activity
             android:name=".EstadisticasUrl"
-            android:parentActivityName=".view.ContainerActivity" />
-        <activity
-            android:name=".RespuestaActivity"
             android:parentActivityName=".view.ContainerActivity" />
         <activity
             android:name=".Noticias"

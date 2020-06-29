@@ -14,9 +14,6 @@ import android.widget.ImageButton;
 import com.programacion.covid.Noticias;
 import com.programacion.covid.R;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class HomeFragment extends Fragment {
 
     public HomeFragment() {

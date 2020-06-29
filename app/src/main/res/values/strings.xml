@@ -33,18 +33,47 @@
 
     <string name="large_text">Preguntas Frecuentes
     </string>
+
+
     <string name="transitionname_picture">transitionName</string>
-    <string name="action_settings">Ayuda</string>
-    <string name="pregunta1">¿Tienes Fiebre mayor a 37.5º?</string>
-    <string name="pregunta2">¿Sientes que tienes tos seca?</string>
+    <string name="action_settings">Acerca de</string>
+
+
     <string name="radiobutton">RadioButton</string>
-    <string name="pregunta3">¿Presenta Fatiga u Cansancio?</string>
-    <string name="pregunta4">¿Presenta sensacion de falta de Aire o inicio Brusco?</string>
-    <string name="pregunta5">¿Dolor de Garganta?</string>
+
+
+    //PREGUNTAS
+    <string name="pregunta1">1) ¿Tienes Fiebre mayor a 37.5º?</string>
+
+    <string name="pregunta2">2) ¿Sientes que tienes tos seca?</string>
+
+    <string name="pregunta3">3) ¿Presenta Fatiga u Cansancio?</string>
+
+    <string name="pregunta4">4) ¿Presenta sensacion de falta de Aire o inicio Brusco?</string>
+
+    <string name="pregunta5">5) ¿Dolor de Garganta?</string>
+
+    <string name="pregunta6">6) Ha perdido el gusto o el olfato por mucho tiempo? </string>
+
+    <string name="pregunta7">7) Dolores de cabeza Intenso - Moderado? </string>
+
+    <string name="pregunta8">8) Ha Presentado Diarrea? </string>
+
+    <string name="pregunta9">9) Ha Presentado Vomitos? </string>
+
+    <string name="pregunta10">10) Tiene Problemas para tragar? (Deglutir) </string>
+
+    <string name="pregunta11">11) Tiene dolor en todo el cuerpo? </string>
+
+    <string name="pregunta12">12) Tiene Falta de apetito? </string>
+
+    <string name="pregunta13">13) Sigue presentando sintomas las ultimas dos semanas? </string>
+
+
     <string name="informacion">La Organización Mundial de la Salud (OMS) apunta que cerca de un
         80% de los contagiados presenta síntomas leves o incluso inexistentes.
-        Pero una minoría desarrolla covid-19 en sus formas más graves,A Continuacion presentamos
-        un breve test para descartar si es un persona propensa al COVID-19.</string>
+        Pero una minoría desarrolla covid-19 (la enfermedad causada por el coronavirus) en sus formas más graves,
+        A Continuacion presentamos un breve test para descartar si es un persona propensa al COVID-19.</string>
 
     <string name="encabezado">Test de COVID-19</string>
 
@@ -59,4 +88,5 @@
     <string name="estadisticas">En el siguiente apartado se muestra las estaditicas de las personas contagiados por el virus, los casos activos, los muertos y los recuperados. Se requiere internet para poder acceder a esta seccion.</string>
     <string name="autoridad_estadisticas">Los siguientes datos a mostrar son datos veridicos recolectados de la universidad estounidense la Universidad de Hopkins, haga click para acceder a los datos.</string>
     <string name="title_activity_mapa__prueba_maps">Map</string>
+    <string name="Intro_test">Realice el siguiente formulario para determinar si es posible que tenga coronavirus. OJO: El siguiente formulario esta basado en preguntas realizadas por profesionales, se busca informar a los potenciales usuarios pero no prevee diagnosticar el coronavirus, si cree tenerlo a partir de este test consulte a su medico</string>
 </resources>

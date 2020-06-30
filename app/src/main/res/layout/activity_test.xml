@@ -7,9 +7,6 @@
     tools:context=".Test">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
@@ -27,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fitsSystemWindows="true"
-                app:contentScrim="@color/design_default_color_primary_dark"
+                app:contentScrim="@color/colorAccent"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed"
                 app:toolbarId="@+id/toolbar">
 
@@ -53,9 +50,6 @@
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.core.widget.NestedScrollView
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             tools:showIn="@layout/fragment_test"
             android:layout_width="match_parent"
@@ -66,7 +60,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/backgroundText_card"
+                android:background="@android:color/white"
                 android:orientation="vertical">
 
                 <TextView
@@ -76,25 +70,18 @@
                     android:paddingLeft="@dimen/activity_vertical_margin"
                     android:paddingRight="@dimen/activity_vertical_margin"
                     android:text="@string/informacion"
-                    android:textColor="#090909"
                     android:textSize="18sp" />
-
-                <View
-                    android:id="@+id/divider"
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:background="#070707" />
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:text="@string/pregunta1"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -106,7 +93,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="Si"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -117,7 +103,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -125,13 +110,13 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pregunta2"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -143,7 +128,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="Si"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -154,7 +138,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -162,13 +145,13 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pregunta3"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -180,7 +163,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="Si"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -191,7 +173,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -199,13 +180,13 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pregunta4"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -217,7 +198,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="Si"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -228,7 +208,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -236,13 +215,13 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pregunta5"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -254,7 +233,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="Si"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -265,7 +243,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -273,13 +250,13 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pregunta6"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -291,7 +268,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="Si"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -302,7 +278,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -310,13 +285,13 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pregunta7"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -328,7 +303,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="Si"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -339,7 +313,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -347,13 +320,13 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pregunta8"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -365,7 +338,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="Si"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -376,7 +348,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -384,13 +355,13 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pregunta9"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -413,7 +384,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -421,13 +391,13 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta10"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pregunta10"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -439,7 +409,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="Si"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -450,7 +419,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -458,13 +426,13 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pregunta11"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -476,7 +444,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="Si"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -487,7 +454,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -495,13 +461,13 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta12"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pregunta12"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -513,7 +479,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="Si"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -524,7 +489,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -532,13 +496,13 @@
 
                 <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp">
                     <TextView
                         android:id="@+id/Pregunta13"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pregunta13"
-                        android:textColor="@color/textColor"
                         android:paddingLeft="@dimen/activity_vertical_margin"
                         android:paddingRight="@dimen/activity_vertical_margin"
                         android:textSize="18sp"
@@ -550,7 +514,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="Si"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -561,7 +524,6 @@
                         android:layout_height="wrap_content"
                         android:checked="false"
                         android:text="No"
-                        android:textColor="@color/textColor"
                         android:textSize="18sp"
                         android:textStyle="italic"
                         android:translationX="10dp" />
@@ -569,10 +531,14 @@
 
                 <Button
                     android:id="@+id/btnResult"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Iniciar Test"
-                    android:textStyle="bold"/>
+                    android:layout_width="100dp"
+                    android:layout_height="98dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="40dp"
+                    android:background="@drawable/boton_contorno"
+                    android:text="Hacer test"
+                    android:textColor="@android:color/white"
+                    android:paddingRight="10dp" />
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

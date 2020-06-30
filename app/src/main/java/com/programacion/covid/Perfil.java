@@ -137,53 +137,63 @@ public class Perfil extends AppCompatActivity {
 
     private void mostrar()
     {
-        if(Identificador.equals("Masaya"))
+        if(Identificador.equals("Mildred Vivas"))
         {
-            Imagen.setImageResource(R.drawable.doc1);
-            Nombre_Perfil.setText("Doc. Luis Mora");
-            Rama_Doctor.setText("Cardiología");
+            Imagen.setImageResource(R.drawable.doctora2);
+            Nombre_Perfil.setText("Doc. Mildred Vivas");
+            Rama_Doctor.setText("Pediatra, medico general");
             Local.setText(Identificador);
             Celular_Doctor.setText("+505 88982707");
-            Doc_correo.setText("luis65@gmail.com");
+            Doc_correo.setText("mildredV24@gmail.com");
             Horario.setText("8:00 am - 8:00 pm");
 
         }
-        else if (Identificador.equals("Chinandega"))
+        else if (Identificador.equals("Magdalena Pavón"))
         {
-            Imagen.setImageResource(R.drawable.doc2);
-            Nombre_Perfil.setText("Doc. Francisco Lopez");
-            Rama_Doctor.setText("Oftalmología");
+            Imagen.setImageResource(R.drawable.doctora2);
+            Nombre_Perfil.setText("Doc. Magdalena Pavón");
+            Rama_Doctor.setText("Medico general");
             Local.setText(Identificador);
             Celular_Doctor.setText("+505 57340999");
-            Doc_correo.setText("f_lopez@gmail.com");
+            Doc_correo.setText("magdalenapavon65@gmail.com");
             Horario.setText("8:30 am - 10:00 pm");
 
         }
-        else if (Identificador.equals("Leon"))
+        else if (Identificador.equals("Francisco Lopez"))
         {
-            Imagen.setImageResource(R.drawable.doc3);
-            Nombre_Perfil.setText("Doc. Mirian Mena");
+            Imagen.setImageResource(R.drawable.doctor3);
+            Nombre_Perfil.setText("Doc. Francisco Lopez");
             Rama_Doctor.setText("Pediatría");
             Local.setText(Identificador);
             Celular_Doctor.setText("+505 2277 6886");
             Doc_correo.setText("m.mena74@yahoo.com");
             Horario.setText("6:00 pm - 6:00 am");
-            Imagen_Doctor.setImageResource(R.drawable.doctor_hembra);
+
         }
-        else if (Identificador.equals("Esteli"))
+        else if (Identificador.equals("Mirian Mena"))
         {
-            Imagen.setImageResource(R.drawable.doc4);
-            Nombre_Perfil.setText("Doc. Carlos Hernandez");
+            Imagen.setImageResource(R.drawable.doctora2);
+            Nombre_Perfil.setText("Doc. Mirian Mena");
             Rama_Doctor.setText("Dermatología");
             Local.setText(Identificador);
             Celular_Doctor.setText("+505 2245 4456");
             Doc_correo.setText("herngan_c@gmail.com");
             Horario.setText("10:00 am - 11:00 pm");
         }
-        else if(Identificador.equals("Managua"))
+        else if(Identificador.equals("Carlos Hernandez"))
         {
-            Imagen.setImageResource(R.drawable.doc5);
-            Nombre_Perfil.setText("Doc. Victor Norori");
+            Imagen.setImageResource(R.drawable.doctor3);
+            Nombre_Perfil.setText("Doc.Carlos Hernandez");
+            Rama_Doctor.setText("Otorrinolaringología");
+            Local.setText(Identificador);
+            Celular_Doctor.setText("+505 73800897");
+            Doc_correo.setText("norori_v@gmail.com");
+            Horario.setText("6:00 am - 9:00 pm");
+        }
+        else if(Identificador.equals("Victor Norori"))
+        {
+            Imagen.setImageResource(R.drawable.doctor3);
+            Nombre_Perfil.setText("Doc.Victor Norori");
             Rama_Doctor.setText("Otorrinolaringología");
             Local.setText(Identificador);
             Celular_Doctor.setText("+505 73800897");

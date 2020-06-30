@@ -15,7 +15,7 @@
             android:layout_marginRight="50dp"
             android:layout_marginTop="20dp"
             cardview:cardCornerRadius="10dp"
-            android:backgroundTint="@color/color1_boton">
+            android:backgroundTint="@color/colorAccent">
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/Imagen_Id"
                 android:layout_marginTop="10dp"

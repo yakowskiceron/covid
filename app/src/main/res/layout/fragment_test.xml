@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     tools:context=".view.fragment.TestFragment"
     >
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
-        android:layout_marginTop="@dimen/toolbar_height_detail"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -18,14 +21,35 @@
             android:layout_margin="@dimen/margin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Intro_test"/>
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:text="@string/Intro_test"
+            android:gravity="center_horizontal" />
 
-        <ImageButton
-            android:id="@+id/testbtn"
-            android:layout_width="175dp"
-            android:layout_height="166dp"
-            android:layout_gravity="center"
+        <TextView
             android:layout_margin="@dimen/margin"
-            android:background="@drawable/resultado" />
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/parrafo2_test"
+            />
+
+        <TextView
+            android:layout_margin="@dimen/margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/validacion_test"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/testbtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:background="@drawable/boton_contorno"
+            android:text="Hacer test"
+            android:textColor="@color/backgroundText_card"/>
     </LinearLayout>
 </RelativeLayout>

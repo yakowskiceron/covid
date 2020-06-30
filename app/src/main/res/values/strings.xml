@@ -86,7 +86,15 @@
     <string name="encabezado_agenda">Lista de agendas de doctores disponibles</string>
     <string name="descripcion_Agenda">Estamos viviendo tiempos difíciles y nuestro mayor aliado es la tecnológia para comunicarnos con las demás personas. Por eso, le proporcionamos una lista de los doctores certificados disponibles que se encuentran en los distintos departamentos de Nicaragua, con ellos podrá comunicarse para una atencion medica sin salir de sus hogares.</string>
     <string name="estadisticas">En el siguiente apartado se muestra las estaditicas de las personas contagiados por el virus, los casos activos, los muertos y los recuperados. Se requiere internet para poder acceder a esta seccion.</string>
-    <string name="autoridad_estadisticas">Los siguientes datos a mostrar son datos veridicos recolectados de la universidad estounidense la Universidad de Hopkins, haga click para acceder a los datos.</string>
+    <string name="autoridad_estadisticas">Los siguientes datos a mostrar son avalados por la universidad estounidense, la Universidad de John Hopkins, haga click para acceder a los datos.</string>
     <string name="title_activity_mapa__prueba_maps">Map</string>
-    <string name="Intro_test">Realice el siguiente formulario para determinar si es posible que tenga coronavirus. OJO: El siguiente formulario esta basado en preguntas realizadas por profesionales, se busca informar a los potenciales usuarios pero no prevee diagnosticar el coronavirus, si cree tenerlo a partir de este test consulte a su medico</string>
+    <string name="Intro_test">Realice el siguiente formulario para determinar si es posible que tenga coronavirus.</string>
+    <string name="parrafo2_test"> Advertencia: El siguiente formulario esta basado en preguntas realizadas por profesionales, pero no prevee diagnosticar el coronavirus, es un test divulgativo.</string>
+    <string name="validacion_test">"La Dr. Nicaragüense Magdalena del Carmen Pavón Vasquez, especialista en Cirugía General, explica cuales son los sintomas más comunes presentados en la personas que contraen COVID-19.  Ella nos compartió el test más básico para saber si usted es un posible caso."</string>
+    <string name="estadisticas_mundiales">Estadisticas mundiales</string>
+    <string name="ver_estadisticas">Ver estadísticas</string>
+    <string name="mapa_encabezado">Mapa de hospitales Nicaragüenses</string>
+    <string name="primer_parrafo_mapa">"En esta seccion podras encontrar los hospitales nicaragüense públicos y privados que cuentan con atencion especializada para aquellas personas que tienen COVID-19. "</string>
+    <string name="ver_mapa">Ver mapa</string>
+    <string name="parrafo_mapa">Los mapas han sido empleados desde la antigüedad para recoger la información geográfica y transmitirla, en estos momentos tan dificiles que estamos pasando, tener un mapa de los hospitales más cercanos, nos viene de mucha ayuda</string>
 </resources>

@@ -28,23 +28,27 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin"
+                android:layout_marginLeft="@dimen/margin"
                 android:paddingTop="@dimen/margin"
                 android:paddingBottom="@dimen/margin"
                 android:layout_gravity="center|top"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/grupo"
+                    android:layout_marginBottom="@dimen/margin"
                     />
 
                 <TextView
-                    android:paddingRight="@dimen/margin"
-                    android:paddingLeft="@dimen/margin"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="15sp"
+                    android:textSize="18sp"
                     android:text="@string/descripcion_Agenda"
                     />
 

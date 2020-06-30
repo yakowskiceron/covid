@@ -9,29 +9,45 @@
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
-        android:layout_marginTop="@dimen/toolbar_height_detail"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/estadisticas_mundiales"
+            android:textColor="@color/textColor"
+            android:textSize="24dp"
+            />
+
+        <TextView
             android:layout_margin="@dimen/margin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="@string/estadisticas"/>
         <TextView
             android:layout_margin="@dimen/margin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="@string/autoridad_estadisticas"/>
 
-        <ImageButton
-            android:layout_margin="@dimen/margin"
+        <Button
             android:id="@+id/barra"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
             android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/barraa"/>
+            android:layout_margin="40dp"
+            android:background="@drawable/boton_contorno"
+            android:textColor="@color/backgroundText_card"
+            android:textSize="16sp"
+            android:text="@string/ver_estadisticas"/>
 
 
 

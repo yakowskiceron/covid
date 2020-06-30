@@ -25,7 +25,7 @@ public class AgendaFragment extends Fragment {
 
     RecyclerView recyclerView_doctores;
     ArrayList<Personaje_Doc> listadoctores2;
-    static String Nombre;
+    static String Nombre, info;
 
     public AgendaFragment() {
         // Required empty public constructor
@@ -52,11 +52,13 @@ public class AgendaFragment extends Fragment {
 
                 // En funcion de los departamentos
                 Nombre = listadoctores2.get(recyclerView_doctores.getChildAdapterPosition(v)).getNombre();
+                info = listadoctores2.get(recyclerView_doctores.getChildAdapterPosition(v)).getInf();
                 consulta();
                 Toast.makeText(getContext(),""+Nombre,Toast.LENGTH_LONG).show();
 
                 Intent myIntene = new Intent(getActivity(),Perfil.class);
                 startActivity(myIntene);
+
 
                /* Toast.makeText(getApplicationContext(),"Selecciono: "+lista_personaje.
                         get(recyclerDoctores.getChildAdapterPosition(v)).getInf(),Toast.LENGTH_LONG).show(); */
@@ -68,12 +70,12 @@ public class AgendaFragment extends Fragment {
     }
 
     private void llenarDoctores() {
-        listadoctores2.add(new Personaje_Doc("Masaya","Luis Mora",R.drawable.doc1));
-        listadoctores2.add(new Personaje_Doc("Masaya","Mildred Vivas",R.drawable.doc1));
-        listadoctores2.add(new Personaje_Doc("Chinandega","Francisco Lopez",R.drawable.doc2));
-        listadoctores2.add(new Personaje_Doc("Leon","Mirian Mena",R.drawable.doc3));
-        listadoctores2.add(new Personaje_Doc("Esteli","Carlos Hernandez",R.drawable.doc4));
-        listadoctores2.add(new Personaje_Doc("Managua","Victor Norori",R.drawable.doc5));
+        listadoctores2.add(new Personaje_Doc("Masaya","Magdalena Pavón",R.drawable.doctora2));
+        listadoctores2.add(new Personaje_Doc("Masaya","Mildred Vivas",R.drawable.doctora2));
+        listadoctores2.add(new Personaje_Doc("Chinandega","Francisco Lopez",R.drawable.doctor3));
+        listadoctores2.add(new Personaje_Doc("Leon","Mirian Mena",R.drawable.doctora2));
+        listadoctores2.add(new Personaje_Doc("Esteli","Carlos Hernandez",R.drawable.doctor3));
+        listadoctores2.add(new Personaje_Doc("Managua","Victor Norori",R.drawable.doctor3));
 
 
     }
@@ -81,6 +83,6 @@ public class AgendaFragment extends Fragment {
     public void consulta()
     {
         Modelo model = new Modelo();
-        model.setConsulta(Nombre);
+        model.setConsulta(info);
     }
 }

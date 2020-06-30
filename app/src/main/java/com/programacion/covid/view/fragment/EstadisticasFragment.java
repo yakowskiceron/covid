@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.programacion.covid.EstadisticasUrl;
@@ -32,7 +33,7 @@ public class EstadisticasFragment extends Fragment {
 
 
 
-        ImageButton btnBarra = (ImageButton) view.findViewById(R.id.barra);
+        Button btnBarra = (Button) view.findViewById(R.id.barra);
 
         btnBarra.setOnClickListener(new View.OnClickListener() {
             @Override

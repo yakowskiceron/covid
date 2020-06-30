@@ -20,7 +20,7 @@
     <tab
         id="@+id/home"
         title="@string/tab_home"
-        icon="@drawable/home"
+        icon="@drawable/news1"
         />
     <tab
         id="@+id/agenda"

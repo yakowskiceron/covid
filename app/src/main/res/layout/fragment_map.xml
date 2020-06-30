@@ -5,60 +5,63 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".view.fragment.MapFragment"
+        android:background="@android:color/white"
         >
 
         <!-- TODO: Update blank fragment layout -->
-        <LinearLayout
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="@dimen/margin"
-            android:layout_marginRight="@dimen/margin"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-
-            <TextView
-                android:layout_margin="@dimen/margin"
-                android:gravity="center"
+        <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginRight="@dimen/margin"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/mapa_encabezado"
-                android:textColor="@color/textColor"
-                android:textSize="24sp"
-                />
-
-            <TextView
-                android:layout_margin="@dimen/margin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/parrafo_mapa"
-                android:textSize="20sp"
-                />
-
-            <TextView
-                android:layout_margin="@dimen/margin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/primer_parrafo_mapa"
-                android:textSize="20sp"
-                />
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
 
+                <TextView
+                    android:layout_margin="@dimen/margin"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mapa_encabezado"
+                    android:textColor="@color/textColor"
+                    android:textSize="24sp"
+                    />
 
-            <Button
-                android:layout_margin="100dp"
-                android:id="@+id/barra"
-                android:layout_gravity="center"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:background="@drawable/boton_contorno"
-                android:textColor="@color/backgroundText_card"
-                android:text="@string/ver_mapa"/>
+                <TextView
+                    android:layout_margin="@dimen/margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/parrafo_mapa"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:layout_margin="@dimen/margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/primer_parrafo_mapa"
+                    android:textSize="20sp"
+                    />
 
 
 
-        </LinearLayout>
-
+                <Button
+                    android:layout_margin="100dp"
+                    android:id="@+id/barra"
+                    android:layout_gravity="center"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/boton_contorno"
+                    android:textColor="@color/backgroundText_card"
+                    android:text="@string/ver_mapa"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
 
     </RelativeLayout>
 

@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fitsSystemWindows="true"
-                app:contentScrim="@color/colorAccent"
+                app:contentScrim="@color/colorPrimary"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed"
                 app:toolbarId="@+id/toolbar">
 
@@ -58,6 +58,7 @@
 
 
             <LinearLayout
+                android:layout_margin="@dimen/margin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/white"
@@ -87,6 +88,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton1"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -97,6 +99,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton2"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -122,6 +125,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton3"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -132,6 +136,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton4"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -157,6 +162,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton5"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -167,6 +173,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton6"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -192,6 +199,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton7"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -202,6 +210,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton8"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -227,6 +236,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton9"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -237,6 +247,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton10"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -262,6 +273,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton11"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -272,6 +284,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton12"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -297,6 +310,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton13"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -307,6 +321,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton14"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -332,6 +347,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton15"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -342,6 +358,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton16"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -367,6 +384,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton17"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -378,6 +396,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton18"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -403,6 +422,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton19"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -413,6 +433,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton20"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -438,6 +459,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton21"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -448,6 +470,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton22"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -473,6 +496,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton23"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -483,6 +507,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton24"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -508,6 +533,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton25"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -518,6 +544,7 @@
                         android:textStyle="italic"
                         android:translationX="10dp" />
                     <RadioButton
+                        android:layout_marginLeft="@dimen/margin2"
                         android:id="@+id/radiobutton26"
                         style="@style/Widget.AppCompat.CompoundButton.RadioButton"
                         android:layout_width="match_parent"
@@ -529,6 +556,26 @@
                         android:translationX="10dp" />
                 </RadioGroup>
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Respuesta"
+                    android:layout_marginLeft="@dimen/margin2"
+                    android:layout_marginTop="@dimen/margin2"
+                    android:layout_marginRight="@dimen/margin2"
+                    android:textColor="@color/textColor"
+                    android:textSize="20dp"/>
+
+                <EditText
+                    android:background="@drawable/bordes"
+                    android:layout_margin="@dimen/margin2"
+                    android:id="@+id/edit_respuesta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor"
+                    android:padding="@dimen/margin"
+                    android:enabled="false"/>
+
                 <Button
                     android:id="@+id/btnResult"
                     android:layout_width="100dp"
@@ -536,9 +583,10 @@
                     android:layout_gravity="center"
                     android:layout_margin="40dp"
                     android:background="@drawable/boton_contorno"
-                    android:text="Hacer test"
+                    android:text="Ver respuesta"
                     android:textColor="@android:color/white"
-                    android:paddingRight="10dp" />
+                    android:paddingRight="10dp"
+                    android:textAllCaps="false"/>
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -9,10 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 
-import com.programacion.covid.EstadisticasUrl;
-import com.programacion.covid.MapaRecolector;
 import com.programacion.covid.Mapa_Prueba_mapsActivity;
 import com.programacion.covid.R;
 

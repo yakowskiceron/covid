@@ -69,6 +69,7 @@
                 android:text="@string/empezar"
                 android:textSize="30sp"
                 android:onClick="goHome"
+                android:textAllCaps="false"
                 />
         </LinearLayout>
 

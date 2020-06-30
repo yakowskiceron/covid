@@ -1,9 +1,13 @@
 package com.programacion.covid;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
@@ -36,8 +40,10 @@ public class Test extends AppCompatActivity {
     private RadioButton res12no;
     private RadioButton res13si;
     private RadioButton res13no;
+
     //Variable del boton
     Button resultado;
+    int contador = 100;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,15 +76,60 @@ public class Test extends AppCompatActivity {
         res13si = (RadioButton) findViewById(R.id.radiobutton25);
         res13no = (RadioButton) findViewById(R.id.radiobutton26);
 
-        resultado = (Button) findViewById(R.id.btnResult);
-        resultado.isClickable();
 
-        if (resultado.isPressed() && res1si.isChecked() && res2si.isChecked() && res3si.isChecked() &&
-           res4si.isChecked() && res6si.isChecked() && res11si.isChecked() && res12si.isChecked()) {
-                Toast.makeText(this, "Es probable que tenga coronavirus, porfavor consulte a su medico", Toast.LENGTH_LONG).show();
-        }
-        else if (resultado.isPressed()) {
-                Toast.makeText(this, "Es poco probable que tenga coronavirus, pero porfavor consulte a su medico", Toast.LENGTH_LONG).show();
-        }
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("Test");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        final EditText respuesta = (EditText) findViewById(R.id.edit_respuesta);
+
+        resultado = (Button) findViewById(R.id.btnResult);
+        resultado.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                if(res1si.isChecked()){
+                    contador = contador - 10;
+                }else if(res2si.isChecked()){
+                    contador = contador - 10;
+                }else if(res3si.isChecked()){
+                    contador = contador - 5;
+                }else if(res4si.isChecked()){
+                    contador = contador - 10;
+                }else if(res5si.isChecked()){
+                    contador = contador -5;
+                }else if(res6si.isChecked()){
+                    contador = contador - 10;
+                }else if(res7si.isChecked()){
+                    contador = contador - 10;
+                }else if(res8si.isChecked()){
+                    contador = contador - 5;
+                }else if(res9si.isChecked()) {
+                    contador = contador - 5;
+                }else if(res10si.isChecked()){
+                    contador = contador - 5;
+                }else if(res11si.isChecked()){
+                    contador = contador - 10;
+                }else if(res12si.isChecked()){
+                    contador = contador - 5;
+                }else if(res13si.isChecked()){
+                    contador = contador - 10;
+                }
+
+                if ((contador == 100) && (contador >= 80)) {
+                    respuesta.setText("Es poco probable que tenga coronavirus, porfavor consulte a un medico");
+
+                }else if ((contador == 50) && (contador <= 79)){
+                    respuesta.setText("Es poco probable que tenga coronavirus, porfavor consulte a un medico");
+               }else if ((contador == 0) && (contador <= 49)){
+                    respuesta.setText("Es muy probable que tenga coronavirus, porfavor consulte a un medico");
+                }
+            }
+
+        });
+
     }
 }

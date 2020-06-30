@@ -70,10 +70,10 @@
     <string name="pregunta13">13) Sigue presentando sintomas las ultimas dos semanas? </string>
 
 
-    <string name="informacion">La Organización Mundial de la Salud (OMS) apunta que cerca de un
-        80% de los contagiados presenta síntomas leves o incluso inexistentes.
-        Pero una minoría desarrolla covid-19 (la enfermedad causada por el coronavirus) en sus formas más graves,
-        A Continuacion presentamos un breve test para descartar si es un persona propensa al COVID-19.</string>
+    <string name="informacion">La Organización Mundial de la Salud(OMS) apunta que cerca de un
+        80% de los contagiados presentan síntomas leves o incluso inexistentes.
+        Pero, una minoría desarrolla COVID-19(la enfermedad causada por el coronavirus) en sus formas más graves.
+        A continuación, presentamos un breve test que le mostrará si usted presenta los sintomas de la enfermedad.</string>
 
     <string name="encabezado">Test de COVID-19</string>
 

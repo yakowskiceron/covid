@@ -22,5 +22,6 @@
     <dimen name="padding_vertical">32dp</dimen>
     <dimen name="appbar_height_layuot">255dp</dimen>
     <dimen name="toolbar_height_detail">55dp</dimen>
+    <dimen name="margin2">20dp</dimen>
 
 </resources>

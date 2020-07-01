@@ -15,7 +15,7 @@ public class EstadisticasUrl extends AppCompatActivity {
         setContentView(R.layout.activity_estadisticas_url);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Estadisticas");
+        toolbar.setTitle("Estadísticas");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

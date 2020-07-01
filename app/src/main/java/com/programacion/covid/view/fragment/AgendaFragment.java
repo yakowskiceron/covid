@@ -72,10 +72,10 @@ public class AgendaFragment extends Fragment {
     private void llenarDoctores() {
         listadoctores2.add(new Personaje_Doc("Masaya","Magdalena Pavón",R.drawable.doctora2));
         listadoctores2.add(new Personaje_Doc("Masaya","Mildred Vivas",R.drawable.doctora2));
-        listadoctores2.add(new Personaje_Doc("Chinandega","Francisco Lopez",R.drawable.doctor3));
+        listadoctores2.add(new Personaje_Doc("Chinandega","Francisco López",R.drawable.doctor3));
         listadoctores2.add(new Personaje_Doc("Leon","Mirian Mena",R.drawable.doctora2));
-        listadoctores2.add(new Personaje_Doc("Esteli","Carlos Hernandez",R.drawable.doctor3));
-        listadoctores2.add(new Personaje_Doc("Managua","Victor Norori",R.drawable.doctor3));
+        listadoctores2.add(new Personaje_Doc("Estelí","Carlos Hernández",R.drawable.doctor3));
+        listadoctores2.add(new Personaje_Doc("Managua","Víctor Norori",R.drawable.doctor3));
 
 
     }

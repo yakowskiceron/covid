@@ -68,7 +68,8 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:paddingLeft="@dimen/separacion"
         android:paddingTop="@dimen/margin"
-        android:paddingRight="@dimen/margin">
+        android:paddingRight="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin">
 
     </androidx.recyclerview.widget.RecyclerView>
 

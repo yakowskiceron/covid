@@ -120,12 +120,12 @@ public class Test extends AppCompatActivity {
                 }
 
                 if ((contador == 100) && (contador >= 80)) {
-                    respuesta.setText("Es poco probable que tenga coronavirus, porfavor consulte a un medico");
+                    respuesta.setText("Es muy poco probable que tenga coronavirus, si tiene dudas puede dirigirse a la sección de agendas para tener asistencia médica");
 
                 }else if ((contador == 50) && (contador <= 79)){
-                    respuesta.setText("Es poco probable que tenga coronavirus, porfavor consulte a un medico");
+                    respuesta.setText("Es poco probable que tenga coronavirus, si necesita asistencia médica dirijase al segmento de agendas");
                }else if ((contador == 0) && (contador <= 49)){
-                    respuesta.setText("Es muy probable que tenga coronavirus, porfavor consulte a un medico");
+                    respuesta.setText("Es muy probable que tenga coronavirus, consulte a un médico, puede hacer en la sección de agenda");
                 }
             }
 

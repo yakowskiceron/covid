@@ -26,9 +26,9 @@
     <string name="tab_agenda">Agenda</string>
     <string name="tab_map">Mapa</string>
     <string name="tab_test">Test</string>
-    <string name="tab_stadistics">Estadistica</string>
+    <string name="tab_stadistics">Cálculo</string>
 
-    <string name="estadistica">Estadisticas</string>
+    <string name="estadistica">Cálculo</string>
 
 
     <string name="large_text">Preguntas Frecuentes
@@ -43,7 +43,7 @@
 
 
     //PREGUNTAS
-    <string name="pregunta1">1) ¿Tienes Fiebre mayor a 37.5º?</string>
+    <string name="pregunta1">1) ¿Tienes fiebre mayor a 37.5º?</string>
 
     <string name="pregunta2">2) ¿Sientes que tienes tos seca?</string>
 
@@ -53,21 +53,21 @@
 
     <string name="pregunta5">5) ¿Dolor de Garganta?</string>
 
-    <string name="pregunta6">6) Ha perdido el gusto o el olfato por mucho tiempo? </string>
+    <string name="pregunta6">6) ¿Ha perdido el gusto o el olfato por mucho tiempo? </string>
 
-    <string name="pregunta7">7) Dolores de cabeza Intenso - Moderado? </string>
+    <string name="pregunta7">7) ¿Dolores de cabeza Intenso - Moderado? </string>
 
-    <string name="pregunta8">8) Ha Presentado Diarrea? </string>
+    <string name="pregunta8">8) ¿Ha presentado diarrea? </string>
 
-    <string name="pregunta9">9) Ha Presentado Vomitos? </string>
+    <string name="pregunta9">9) ¿Ha presentado vomitos? </string>
 
-    <string name="pregunta10">10) Tiene Problemas para tragar? (Deglutir) </string>
+    <string name="pregunta10">10) ¿Tiene problemas para tragar? (Deglutir) </string>
 
-    <string name="pregunta11">11) Tiene dolor en todo el cuerpo? </string>
+    <string name="pregunta11">11) ¿Tiene dolor en todo el cuerpo? </string>
 
-    <string name="pregunta12">12) Tiene Falta de apetito? </string>
+    <string name="pregunta12">12) ¿Tiene falta de apetito? </string>
 
-    <string name="pregunta13">13) Sigue presentando sintomas las ultimas dos semanas? </string>
+    <string name="pregunta13">13) ¿Sigue presentando sintomas las ultimas dos semanas? </string>
 
 
     <string name="informacion">La Organización Mundial de la Salud(OMS) apunta que cerca de un
@@ -80,21 +80,21 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="medidas">Medidas de prevencion en contra del COVID-19</string>
+    <string name="medidas">Medidas de prevención en contra del COVID-19</string>
     <string name="enunciado">lavate las manos</string>
     <string name="enunciado_principal">Lavate de las manos</string>
     <string name="encabezado_agenda">Lista de agendas de doctores disponibles</string>
     <string name="descripcion_Agenda">Estamos viviendo tiempos difíciles y nuestro mayor aliado es la tecnológia para comunicarnos con las demás personas. Por eso, le proporcionamos una lista de los doctores certificados disponibles que se encuentran en los distintos departamentos de Nicaragua, con ellos podrá comunicarse para una atencion medica sin salir de sus hogares.</string>
-    <string name="estadisticas">En el siguiente apartado se muestra las estaditicas de las personas contagiados por el virus, los casos activos, los muertos y los recuperados. Se requiere internet para poder acceder a esta seccion.</string>
+    <string name="estadisticas">En el siguiente apartado se muestra las estadísticas de las personas contagiadas por el virus, los casos activos, los muertos y los recuperados. Se requiere internet para poder acceder a esta sección.</string>
     <string name="autoridad_estadisticas">Los siguientes datos a mostrar son avalados por la universidad estounidense, la Universidad de John Hopkins, haga click para acceder a los datos.</string>
     <string name="title_activity_mapa__prueba_maps">Map</string>
     <string name="Intro_test">Realice el siguiente formulario para determinar si es posible que tenga coronavirus.</string>
     <string name="parrafo2_test"> Advertencia: El siguiente formulario esta basado en preguntas realizadas por profesionales, pero no prevee diagnosticar el coronavirus, es un test divulgativo.</string>
-    <string name="validacion_test">"La Dr. Nicaragüense Magdalena del Carmen Pavón Vasquez, especialista en Cirugía General, explica cuales son los sintomas más comunes presentados en la personas que contraen COVID-19.  Ella nos compartió el test más básico para saber si usted es un posible caso."</string>
-    <string name="estadisticas_mundiales">Estadisticas mundiales</string>
+    <string name="validacion_test">"La Dr. Nicaragüense Magdalena del Carmen Pavón Vásquez, especialista en Cirugía General, explica cuales son los sintomas más comunes presentados en la personas que contraen COVID-19.  Ella nos compartió el test más básico para saber si usted es un posible caso."</string>
+    <string name="estadisticas_mundiales">Estadísticas mundiales</string>
     <string name="ver_estadisticas">Ver estadísticas</string>
     <string name="mapa_encabezado">Mapa de hospitales Nicaragüenses</string>
-    <string name="primer_parrafo_mapa">"En esta seccion podras encontrar los hospitales nicaragüense públicos y privados que cuentan con atencion especializada para aquellas personas que tienen COVID-19. "</string>
+    <string name="primer_parrafo_mapa">"En esta sección podrás encontrar los hospitales nicaragüense públicos y privados que cuentan con atención especializada para aquellas personas que tienen COVID-19. "</string>
     <string name="ver_mapa">Ver mapa</string>
-    <string name="parrafo_mapa">Los mapas han sido empleados desde la antigüedad para recoger la información geográfica y transmitirla, en estos momentos tan dificiles que estamos pasando, tener un mapa de los hospitales más cercanos, nos viene de mucha ayuda</string>
+    <string name="parrafo_mapa">Los mapas han sido empleados desde la antigüedad para recoger la información geográfica y transmitirla, en estos momentos tan difíciles que estamos pasando, tener un mapa de los hospitales más cercanos, nos viene de mucha ayuda.</string>
 </resources>

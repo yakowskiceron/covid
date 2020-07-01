@@ -21,7 +21,7 @@
         android:layout_marginTop="105dp"
         android:fontFamily="@font/landasans"
         android:gravity="center"
-        android:text="Su app de confianza para la pademia"
+        android:text="Su app de confianza para la pandemia"
         android:textSize="30sp" />
 
     <ImageButton
@@ -49,7 +49,7 @@
         android:layout_marginTop="380dp"
         android:fontFamily="@font/landasans"
         android:gravity="center"
-        android:text="*Se necesita una conexion a internet para acceder a las noticias*"
+        android:text="*Se necesita una conexión a internet para acceder a las noticias*"
         android:textSize="20sp" />
 
 

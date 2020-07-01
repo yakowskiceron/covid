@@ -79,7 +79,7 @@ public class Perfil extends AppCompatActivity {
                     // Pidiendo los permisos
                     AlertDialog.Builder dialogo =  new AlertDialog.Builder(Perfil.this);
                     dialogo.setTitle("Permisos desactivados");
-                    dialogo.setMessage("Acepte los permisos para que sirva la app equisde");
+                    dialogo.setMessage("Acepte los permisos para que sirva la app");
 
 
                     dialogo.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
@@ -159,10 +159,10 @@ public class Perfil extends AppCompatActivity {
             Horario.setText("8:30 am - 10:00 pm");
 
         }
-        else if (Identificador.equals("Francisco Lopez"))
+        else if (Identificador.equals("Francisco López"))
         {
             Imagen.setImageResource(R.drawable.doctor3);
-            Nombre_Perfil.setText("Doc. Francisco Lopez");
+            Nombre_Perfil.setText("Doc. Francisco López");
             Rama_Doctor.setText("Pediatría");
             Local.setText(Identificador);
             Celular_Doctor.setText("+505 2277 6886");
@@ -180,20 +180,20 @@ public class Perfil extends AppCompatActivity {
             Doc_correo.setText("herngan_c@gmail.com");
             Horario.setText("10:00 am - 11:00 pm");
         }
-        else if(Identificador.equals("Carlos Hernandez"))
+        else if(Identificador.equals("Carlos Hernández"))
         {
             Imagen.setImageResource(R.drawable.doctor3);
-            Nombre_Perfil.setText("Doc.Carlos Hernandez");
+            Nombre_Perfil.setText("Doc.Carlos Hernández");
             Rama_Doctor.setText("Otorrinolaringología");
             Local.setText(Identificador);
             Celular_Doctor.setText("+505 73800897");
             Doc_correo.setText("norori_v@gmail.com");
             Horario.setText("6:00 am - 9:00 pm");
         }
-        else if(Identificador.equals("Victor Norori"))
+        else if(Identificador.equals("Víctor Norori"))
         {
             Imagen.setImageResource(R.drawable.doctor3);
-            Nombre_Perfil.setText("Doc.Victor Norori");
+            Nombre_Perfil.setText("Doc.Víctor Norori");
             Rama_Doctor.setText("Otorrinolaringología");
             Local.setText(Identificador);
             Celular_Doctor.setText("+505 73800897");
